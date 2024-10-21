@@ -1,4 +1,34 @@
-/* body { 
 
+  /* id selector */
+ #users {
     background-color:red;
-}  */
+  }
+
+    /* element selector */
+    table {
+        width:100%
+    }
+
+    th{
+     Height:50px;
+     background- color: yellow;
+    }
+
+    table, th, td{
+        border:1px solid black;
+        border-collapse:collapse;
+    }
+
+    th, td {
+       padding: 10px;
+    }
+        
+
+ /* class selector */
+ .users-table{
+    background-color:green;
+
+}
+
+
+ 
