@@ -66,4 +66,51 @@
   }
  }
 
+ .navigation li {
+  display: inline;
+  margin-right: 20px;
+ }
+
+ div.parent-tag li {
+  background-color:cyan;
+  margin: 10px 0
+ }
+
+ div.parent-tag li:hover {
+  background-color:red;
+ }
+
+ .sample-check-box input:checked + label {
+  background-color: red;
+ }
+
+ div.parent-tag li:first-child {
+  background-color:orange;
+ }
+
+ div.parent-tag li:last-child {
+  background-color:pink;
+ }
+
+ div.parent-tag li:nth-child(3) {
+  background-color: blue;
+ }
+
+ a:after{
+  content :"(" attr(href)")" '\00A7';
+ }
+
+ .google-a::before{
+  content : "link :)" ;
+  background-color:yellow;
+ }
+ input ::placeholder {
+  color: red;
+ }
+
+
+
+
  
+
+
